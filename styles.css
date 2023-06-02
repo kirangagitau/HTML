@@ -5,9 +5,22 @@ font-family: verdana;
 font-size: 300%;
 }
 
-p {
+p1 {
 color: red;
 font-family: courier;
 border: 2px solid powderblue;
 padding: 30px;
 }
+
+footer {
+color: white;
+font-family: courier new;
+text-align: center;
+padding: 3px;
+position: fixed;
+width: 100%;
+left: 0;
+bottom: 0;
+background-color: green;
+}
+
