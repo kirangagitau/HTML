@@ -1,3 +1,25 @@
+body {
+            margin: 0 auto;
+		text-align: center;
+            background-position: center;
+            background-size: contain;
+	   background-color: #6699CC;
+        }
+
+
+
+ .head2 {
+            font-size: 20px;
+            color: #009900;
+            font-weight: bold;
+        }
+ 
+        .head3 {
+            font-size: 12px;
+            margin-left: 10px;
+            margin-bottom: 15px;
+        }
+
 /* Style the tab */
 .tab {
   overflow: hidden;

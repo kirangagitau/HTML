@@ -3,20 +3,44 @@
 <head>
 <meta charset="UTF-8" />
 <link rel = "stylesheet" type="text/css" href="styles.css"/>
+<script src="jscript.js"></script>
   <title>REDEEMA AUTO SPARES</title>
 </head>
 <body>
+<!-- Header Section -->
+    <header>
+        <div class="head2">
+             REDEEMA AUTO SPARES
+          </div>
+        <div class="head3">
+              Good deals all the time
+          </div>
+    </header>
 
 <!-- Tab links -->
 <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'GENERAL PRODUCTS')">GENERAL PRODUTCS</button>
-  <button class="tablinks" onclick="openCity(event, 'BOLTS AND NUTS')">BOLTS AND NUTS</button>
+  <button class="tablinks" onclick="openTab(event, 'GENERAL PRODUCTS')">GENERAL PRODUTCS</button>
+  <button class="tablinks" onclick="openTab(event, 'BOLTS AND NUTS')">BOLTS AND NUTS</button>
   <button class="tablinks" onclick="openTab(event, 'ABOUT US')">ABOUT US</button>
 </div>
 
-<footer> CopyRight@2023</footer/>
-<h1>This is a heading</h1>
-<p>This is a paragraph.</p>
 
+<!-- Tab content -->
+<div id="GENERAL PRODUCTS" class="tabcontent">
+  <h3>Everything else</h3>
+  <p>London is the capital city of England.</p>
+</div>
+
+<div id="BOLTS AND NUTS" class="tabcontent">
+  <h3>Fasteners</h3>
+  <p>Paris is the capital of France.</p>
+</div>
+
+<div id="ABOUT US" class="tabcontent">
+  <h3>Who we are</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<footer> CopyRight@2023</footer/>
 </body>
 </html>
